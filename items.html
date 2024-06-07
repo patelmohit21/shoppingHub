@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="nav3">
+        <ul>
+            <li>
+                <a href="index.html"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li>
+                <a href="items.html"><i class="fa fa-user"></i>Boy</a>
+
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-users"></i>Accessories</a>
+
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-anchor"></i>Toys <i class="fa fa-caret-down"></i></a>
+
+            </li>
+
+            <li>
+                <a href="#"><i class="fa fa-calendar-check-o"></i>Special</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-search"></i>Find</a>
+            </li>
+            <li>
+                <a href="cart.html"><i class="fa fa-shopping-cart"></i>Cart</a>
+            </li>
+        </ul>
+    </nav>
+    <p>Home / Clothing / <b>kurtis for Women</b></p><br>
+    <p><b>kurtis for Women</b> -999 items</p>
+
+    <nav class="items">
+        <div class="left-items">
+            <h3 style="margin-top: 10px;">CATEGORIES</h3><br>
+            <input type="checkbox" id="kurtas" name="kurtas" value="Kurtas">
+            <label for="vehicle1"> Kurtas</label><br>
+            <input type="checkbox" id="jeans" name="vehicle2" value="Car">
+            <label for="vehicle2"> Jeans</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Shirts</label><br>
+            <input type="checkbox" id="Jackets" name="Jackets" value="Jackets">
+            <label for="vehicle4"> Jackets</label><br>
+            <input type="checkbox" id="Sarees" name="Sarees" value="Sarees">
+            <label for="vehicle5"> Sarees</label><br>
+            <input type="checkbox" id="Suit" name="Suit" value="Suit">
+            <label for="vehicle5"> Suit</label><br><br>
+
+            <h3>BRANDS</h3><br>
+            <input type="checkbox" value="Suit">
+            <label for="Suits"> Libas</label><br>
+            <input type="checkbox" value="Suit">
+            <label for="Suits"> Zara</label><br>
+            <input type="checkbox" value="Suit">
+            <label for="Suits"> Roadstar</label><br>
+            <input type="checkbox" value="Suit">
+            <label for="Suits"> H & M</label><br>
+            <input type="checkbox" value="Suit">
+            <label for="Suits"> Puma</label><br>
+            <input type="checkbox" value="Suit">
+            <label for="Suits"> Pandas</label><br><br>
+
+            <h3>AGE</h3><br>
+            <input type="checkbox" value="Suit">
+            <label for="Suits"> 3-9</label><br>
+            <input type="checkbox" value="Suit">
+            <label for="Suits"> 10-18</label><br>
+            <input type="checkbox" value="Suit">
+            <label for="Suits"> 18-35</label><br><br>
+
+            <h3>Color</h3><br>
+            <input type="checkbox" value="Color">
+            <label for="Red"> Red</label><br>
+            <input type="checkbox" value="Color">
+            <label for="Blue"> Blue</label><br>
+            <input type="checkbox" value="Color">
+            <label for="Green"> Green</label><br>
+            <input type="checkbox" value="Color">
+            <label for="Green"> White</label><br>
+            <input type="checkbox" value="Color">
+            <label for="Green"> Black</label><br>
+            <input type="checkbox" value="Color">
+            <label for="Green"> Orange</label><br>
+        </div>
+
+        <div class="right-items">
+
+            <div class="card">
+                <div>
+                    <img src="shoes1.jpg" alt="">
+                </div>
+                <h1>Puma</h1>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>INR 5199</p>
+                <button onclick="addItemToCart('Puma', 5199.00)">Add to cart</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="shoes2.jpg" alt="">
+                </div>
+                <h1>US Polo</h1>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>INR 3999</p>
+                <button onclick="addItemToCart('US Polo', 3999.00)">Add to cart</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="watch1.jpg" alt="">
+                </div>
+                <h1>Titan Watch</h1>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>INR 4599</p>
+                <button onclick="addItemToCart('Titan Watch', 4500.00)">Add to cart</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="shirt1.jpg" alt="">
+                </div>
+                <h1>Roadstar</h1>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>INR 1299</p>
+                <button onclick="addItemToCart('Register', 1299.00)">Add to cart</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="shirt2.jpg" alt="">
+                </div>
+                <h1>Roadstar</h1>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>INR 1199</p>
+                <button onclick="addItemToCart('Roadstar', 1199.00)">Add to cart</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="Blue Dress1.jpg" alt="">
+                </div>
+                <h1> Blue Dress</h1>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>INR 3999</p>
+                <button onclick="addItemToCart('Blue Dress', 3999.00)">Add to cart</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="erbud.jpg" alt="">
+                </div>
+                <h1>Noise Buds</h1>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>INR 2999</p>
+                <button onclick="addItemToCart('Noise Buds', 2999.00)">Add to cart</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="hoddy1.jpg" alt="">
+                </div>
+                <h1>Women Hoddy</h1>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>INR 1499</p>
+                <button onclick="addItemToCart('Women Hoddy', 1499.00)">Add to cart</button>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>
